@@ -37,6 +37,7 @@ public class LoginEndpointTest {
         return GrizzlyHttpServerFactory.createHttpServer(BASE_URI, rc);
     }
 
+
     @BeforeAll
     public static void setUpClass() {
         //This method must be called before you request the EntityManagerFactory
